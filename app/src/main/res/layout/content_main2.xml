@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pims_background_temp"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.moon.pimsnewoffline.activity.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:id="@+id/UserName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:id="@+id/UserEmail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffff"
+            android:id="@+id/U_id"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffff"
+            android:id="@+id/globalID"/>
+
+
+        <Button
+            android:id="@+id/DocProfile"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/user"
+            android:height="60dp"
+            android:padding="30dp"
+            android:layout_gravity="center"
+            android:background="#610000"
+            android:textColor="#ffff"
+            android:text="Profile"
+            android:textSize="15sp"/>
+
+
+
+        <Button
+            android:id="@+id/btnAddPatient"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:drawableLeft="@drawable/add_patient"
+            android:height="60dp"
+            android:padding="30dp"
+            android:layout_gravity="center"
+            android:text="Add Patient"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:background="#610000"
+            android:textColor="#ffff"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnPatientList"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:drawableLeft="@drawable/ic_assignment_white_18dp"
+            android:height="60dp"
+            android:padding="30dp"
+            android:layout_gravity="center"
+            android:text="Patient List"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+
+            android:background="#610000"
+            android:textColor="#ffff"/>
+
+
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:drawableLeft="@drawable/report"
+            android:height="60dp"
+            android:padding="30dp"
+            android:layout_gravity="center"
+            android:text="Report"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+
+            android:background="#610000"
+            android:textColor="#ffff"/>
+
+
+        <Button
+            android:layout_height="80dp"
+            android:layout_width="350dp"
+            android:layout_marginTop="10dp"
+
+            android:height="60dp"
+            android:padding="30dp"
+            android:layout_gravity="center"
+
+            android:text="LogOut"
+            android:textSize="15sp"
+            android:id="@+id/PIMS_LogOut"
+            android:background="#610000"
+            android:textColor="#ffff"/>
+
+    </LinearLayout>
+
+</ScrollView>

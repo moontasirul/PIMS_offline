@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PIMS new</string>
+    <string name="app_login">LogIn PIMS</string>
+    <string name="title_activity_main2">Twister PIMS</string>
+    <string name="title_Doctor_pro">PIMS Doctors Profile</string>
+    <string name="title_Patient_list">PIMS Patient List</string>
+    <string name="title_Add_patients">PIMS Add Patients</string>
+    <string name="title_Patient_report">PIMS Patient Report</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logOut">LogOut</string>
+</resources>

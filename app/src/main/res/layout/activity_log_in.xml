@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/pims_background_temp"
+    tools:context=".activity.LogInActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pims_logo_titel"
+            />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffff"
+            android:textAlignment="center"
+            android:textColorHint="#ffff"
+            android:id="@+id/etEmail"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#ffff"
+            android:textAlignment="center"
+            android:textColorHint="#ffff"
+            android:id="@+id/etPassword"/>
+
+
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#610000"
+            android:text="LogIn"
+            android:textColor="#ffff"
+            android:id="@+id/loginPIMS"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Forgot Password ?"
+            android:textColor="#ffff"
+            android:id="@+id/ForgotPass"/>
+
+
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60sp"
+            android:src="@drawable/tm_email"
+            android:id="@+id/tmEmail"/>
+
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70sp"
+            android:src="@drawable/tm_logo"
+            android:id="@+id/tmWeb"/>
+
+    </LinearLayout>
+</ScrollView>
